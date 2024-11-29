@@ -14,4 +14,4 @@ configure-dev:
 
 # validate a day `just validate 1`
 validate *arg:
-	@zig test src/day{{arg}}.zig 2>&1 | cat
+	@zig test src/day{{arg}}.zig --test-runner lib/test_runner.zig

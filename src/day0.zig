@@ -1,5 +1,4 @@
 const std = @import("std");
-const add = @import("root.zig").add;
 
 pub fn main() !void {
     // Prints to stderr (it's a shortcut based on `std.io.getStdErr()`)
@@ -22,4 +21,8 @@ test "simple test" {
     defer list.deinit(); // try commenting this out and see if zig detects the memory leak!
     try list.append(42);
     try std.testing.expectEqual(@as(i32, 42), list.pop());
+}
+
+test "part2" {
+    try std.testing.expectEqual(1, 1);
 }
