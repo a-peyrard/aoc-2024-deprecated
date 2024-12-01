@@ -1,4 +1,7 @@
-## Advent of code 2024
+## Advent of code 2024 (deprecated)
+
+Realize I won't have enough time this year to play with a new language.
+Maybe next year for zig...
 
 https://adventofcode.com/2024
 
